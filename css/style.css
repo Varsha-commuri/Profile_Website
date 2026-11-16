@@ -499,3 +499,165 @@ footer a:hover {
     }
 
 }
+
+/* =========================================
+   PERSONAL INTERESTS - EDITORIAL LAYOUT
+========================================= */
+
+.interests-section {
+    background: var(--color-surface);
+    border: 1px solid rgba(197, 161, 93, 0.25);
+    border-radius: var(--radius-large);
+    margin-top: 45px !important;
+}
+
+.interests-editorial {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.interest-feature {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 45px;
+    padding: 25px;
+    background: var(--color-background);
+    border-radius: var(--radius-medium);
+}
+
+.interest-image {
+    position: relative;
+    height: 320px;
+    overflow: hidden;
+    background: var(--color-sage-light);
+}
+
+.interest-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.interest-feature:hover .interest-image img {
+    transform: scale(1.04);
+}
+
+.image-label {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    padding: 7px 12px;
+    background: var(--color-forest);
+    color: var(--color-light-text);
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+}
+
+.interest-copy {
+    padding: 20px;
+}
+
+.interest-kicker {
+    color: var(--color-accent);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.interest-copy h3 {
+    color: var(--color-forest);
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: normal;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.interest-copy p:not(.interest-kicker) {
+    color: var(--color-secondary);
+    font-size: 0.98rem;
+    line-height: 1.9;
+    margin-bottom: 14px;
+}
+
+/* Alternate the second feature */
+
+.music-feature {
+    grid-template-columns: 1fr 1fr;
+}
+
+.music-feature .interest-image {
+    order: 2;
+}
+
+.music-feature .interest-copy {
+    order: 1;
+}
+
+/* Closing quote */
+
+.interests-quote {
+    max-width: 750px;
+    margin: 65px auto 10px;
+    text-align: center;
+    padding: 25px;
+    border-top: 1px solid var(--color-gold-light);
+    border-bottom: 1px solid var(--color-gold-light);
+}
+
+.quote-mark {
+    display: block;
+    color: var(--color-accent);
+    font-family: var(--font-heading);
+    font-size: 3.5rem;
+    line-height: 1;
+}
+
+.interests-quote p {
+    color: var(--color-forest);
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+/* Mobile layout */
+
+@media (max-width: 768px) {
+
+    .interest-feature {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .music-feature .interest-image,
+    .music-feature .interest-copy {
+        order: initial;
+    }
+
+    .interest-image {
+        height: 230px;
+    }
+
+    .interest-copy {
+        padding: 15px 5px;
+    }
+
+    .interest-copy h3 {
+        font-size: 1.6rem;
+    }
+
+    .interests-quote {
+        margin-top: 40px;
+    }
+
+    .interests-quote p {
+        font-size: 1.2rem;
+    }
+}
