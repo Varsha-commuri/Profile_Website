@@ -1,0 +1,63 @@
+
+/* =========================================
+   VARSHA COMMURI - WEBSITE THEME
+   SAGE GREEN | IVORY | ANTIQUE GOLD
+========================================= */
+
+:root {
+
+    /* Main colours */
+    --color-background: #F2F0E7;
+    --color-surface: #F7F5EF;
+    --color-surface-light: #E7E8D9;
+
+    /* Green palette */
+    --color-sage: #AEB99B;
+    --color-sage-light: #DDE1CF;
+    --color-forest: #354B39;
+    --color-forest-dark: #263B2B;
+
+    /* Gold palette */
+    --color-accent: #C5A15D;
+    --color-gold-light: #DCC38F;
+
+    /* Text colours */
+    --color-primary: #354236;
+    --color-secondary: #77796D;
+    --color-light-text: #F7F5EF;
+
+    /* Hero colours */
+    --hero-sage: #AEB99B;
+    --hero-ivory: #F7F5EF;
+    --hero-text: #354236;
+    --hero-muted: #77796D;
+    --hero-accent: #B18A48;
+
+    /* Typography */
+    --font-primary: 'Segoe UI', sans-serif;
+    --font-heading: 'Georgia', serif;
+
+    /* Font sizes */
+    --font-small: 0.875rem;
+    --font-normal: 1rem;
+    --font-large: 1.25rem;
+    --font-heading-large: 3.5rem;
+
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 4rem;
+    --spacing-xl: 6rem;
+
+    /* Border radius */
+    --radius-small: 0.4rem;
+    --radius-medium: 0.8rem;
+    --radius-large: 1.5rem;
+
+    /* Other design properties */
+    --border-width: 1px;
+    --content-width: 1200px;
+    --transition-speed: 0.3s;
+
+}
