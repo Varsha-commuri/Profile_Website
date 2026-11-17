@@ -27,12 +27,12 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install HTMLHint and CSSLint
+      - name: Install HTMLHint and Stylelint
         run: |
-          npm install --global htmlhint csslint
+          npm install --global htmlhint stylelint
 
       - name: Validate HTML
         run: htmlhint index.html
 
       - name: Validate CSS
-        run: csslint --quiet css/theme.css css/style.css
+        run: stylelint "css/**/*.css" --config .stylelintrc.json
