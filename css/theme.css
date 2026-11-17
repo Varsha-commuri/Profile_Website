@@ -20,6 +20,7 @@
     /* Gold palette */
     --color-accent: #C5A15D;
     --color-gold-light: #DCC38F;
+    --color-gold-dark: #94733D;
 
     /* Text colours */
     --color-primary: #354236;
@@ -59,5 +60,16 @@
     --border-width: 1px;
     --content-width: 1200px;
     --transition-speed: 0.3s;
+
+    /* Shadows and transparent colours */
+    --shadow-navigation: 0 3px 15px rgba(38, 59, 43, 0.12);
+    --shadow-card: 0 5px 18px rgba(53, 75, 57, 0.06);
+    --shadow-card-hover: 0 15px 30px rgba(53, 75, 57, 0.13);
+    --shadow-image: 0 8px 22px rgba(38, 59, 43, 0.15);
+    --shadow-menu: 0 8px 20px rgba(0, 0, 0, 0.08);
+
+    --border-gold: rgba(197, 161, 93, 0.35);
+    --border-gold-light: rgba(197, 161, 93, 0.25);
+    --border-hero: rgba(197, 161, 93, 0.3);
 
 }
