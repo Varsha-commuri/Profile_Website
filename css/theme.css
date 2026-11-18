@@ -1,38 +1,38 @@
 
 /* =========================================
-   VARSHA COMMURI - WEBSITE THEME
-   SAGE GREEN | IVORY | ANTIQUE GOLD
+   VARSHA COMMURI - DARK WEBSITE THEME
+   CHARCOAL | FOREST GREEN | ANTIQUE GOLD
 ========================================= */
 
 :root {
 
     /* Main colours */
-    --color-background: #F2F0E7;
-    --color-surface: #F7F5EF;
-    --color-surface-light: #E7E8D9;
+    --color-background: #171D19;
+    --color-surface: #222B25;
+    --color-surface-light: #303B32;
 
     /* Green palette */
-    --color-sage: #AEB99B;
-    --color-sage-light: #DDE1CF;
+    --color-sage: #84977D;
+    --color-sage-light: #A8B69B;
     --color-forest: #354B39;
     --color-forest-dark: #263B2B;
 
     /* Gold palette */
-    --color-accent: #C5A15D;
-    --color-gold-light: #DCC38F;
-    --color-gold-dark: #94733D;
+    --color-accent: #D2AD68;
+    --color-gold-light: #E5C98F;
+    --color-gold-dark: #B18A48;
 
     /* Text colours */
-    --color-primary: #354236;
-    --color-secondary: #77796D;
+    --color-primary: #F2F0E7;
+    --color-secondary: #B8BDB3;
     --color-light-text: #F7F5EF;
 
     /* Hero colours */
-    --hero-sage: #AEB99B;
-    --hero-ivory: #F7F5EF;
-    --hero-text: #354236;
-    --hero-muted: #77796D;
-    --hero-accent: #B18A48;
+    --hero-sage: #84977D;
+    --hero-ivory: #222B25;
+    --hero-text: #F7F5EF;
+    --hero-muted: #C0C7BC;
+    --hero-accent: #D2AD68;
 
     /* Typography */
     --font-primary: 'Segoe UI', sans-serif;
@@ -62,14 +62,14 @@
     --transition-speed: 0.3s;
 
     /* Shadows and transparent colours */
-    --shadow-navigation: 0 3px 15px rgba(38, 59, 43, 0.12);
-    --shadow-card: 0 5px 18px rgba(53, 75, 57, 0.06);
-    --shadow-card-hover: 0 15px 30px rgba(53, 75, 57, 0.13);
-    --shadow-image: 0 8px 22px rgba(38, 59, 43, 0.15);
-    --shadow-menu: 0 8px 20px rgba(0, 0, 0, 0.08);
+    --shadow-navigation: 0 3px 15px rgba(0, 0, 0, 0.35);
+    --shadow-card: 0 5px 18px rgba(0, 0, 0, 0.20);
+    --shadow-card-hover: 0 15px 30px rgba(0, 0, 0, 0.35);
+    --shadow-image: 0 8px 22px rgba(0, 0, 0, 0.30);
+    --shadow-menu: 0 8px 20px rgba(0, 0, 0, 0.30);
 
-    --border-gold: rgba(197, 161, 93, 0.35);
-    --border-gold-light: rgba(197, 161, 93, 0.25);
-    --border-hero: rgba(197, 161, 93, 0.3);
+    --border-gold: rgba(210, 173, 104, 0.40);
+    --border-gold-light: rgba(210, 173, 104, 0.25);
+    --border-hero: rgba(210, 173, 104, 0.35);
 
 }
