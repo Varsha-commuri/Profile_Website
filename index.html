@@ -35,12 +35,21 @@
         </button>
 
         <ul id="nav-links" class="nav-links">
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#journey">Journey</a></li>
-            <li><a href="#interests">Interests</a></li>
-            <li><a href="#family">Family</a></li>
-            <li><a href="#hobbies">Hobbies</a></li>
-        </ul>
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#journey">Journey</a></li>
+    <li><a href="#interests">Interests</a></li>
+    <li><a href="#family">Family</a></li>
+    <li><a href="#hobbies">Hobbies</a></li>
+
+    <li class="theme-selector">
+        <label for="theme-select">Appearance</label>
+        <select id="theme-select" aria-label="Choose website appearance">
+            <option value="sage">Sage Green</option>
+            <option value="dark">Dark Mode</option>
+            <option value="terracotta">Warm Terracotta</option>
+        </select>
+    </li>
+</ul>
 
     </nav>
 </header>
@@ -326,160 +335,275 @@
 
 
         <!-- FAMILY -->
-        <section id="family" class="family-section">
+<section id="family" class="family-section">
 
-            <div class="section-heading">
-                <p class="section-eyebrow">MY CONSTANT SUPPORT</p>
+    <div class="section-heading">
+        <p class="section-eyebrow">MY CONSTANT SUPPORT</p>
 
-                <h2>The People Behind My Story</h2>
+        <h2>The People Behind My Story</h2>
 
-                <p class="family-intro">
-                    A little appreciation for the people who make life feel like home.
-                </p>
-            </div>
+        <p class="family-intro">
+            A little appreciation for the people who make life feel like home.
+        </p>
+    </div>
 
+    <div class="family-container">
 
-            <div class="family-container">
+        <!-- MOTHER -->
+        <article class="family-card">
 
-                <!-- MOTHER -->
-                <article class="family-card family-mother">
+            <div class="family-card-inner">
 
-                    <div class="family-number">01</div>
+                <div class="family-card-front">
 
-                    <div class="family-content">
-                        <p class="family-role">MY FIRST INSPIRATION</p>
+                    <img
+                        src="images/family/family_mother.png"
+                        alt="Illustrated portrait of my mother">
 
+                    <div class="family-front-content">
+                        <span class="family-number">01</span>
                         <h3>My Mother</h3>
+                        <p>MY FIRST INSPIRATION</p>
 
-                        <p>
-                            The most beautiful, resilient and hardworking woman I have
-                            ever known. My first inspiration, my constant strength and
-                            the person who teaches me what grace looks like, even on
-                            the hardest days.
-                        </p>
-
-                        <p>
-                            She has a way of making everything feel a little more
-                            manageable, a little more hopeful and a lot more meaningful.
-                            I hope I grow to have even a fraction of her strength,
-                            patience and kindness.
-                        </p>
-
-                        <p>
-                            If there is one person I will always look up to, it will be her.
-                        </p>
+                        <button class="family-flip-button"
+                                type="button"
+                                aria-expanded="false">
+                            Read More
+                        </button>
                     </div>
 
-                </article>
+                </div>
 
+                <div class="family-card-back">
 
-                <!-- FATHER -->
-                <article class="family-card family-father">
+                    <span class="family-number">01</span>
+                    <p class="family-role">MY FIRST INSPIRATION</p>
+                    <h3>My Mother</h3>
 
-                    <div class="family-number">02</div>
+                    <p>
+                        The most beautiful, resilient and hardworking woman I have
+                        ever known. My first inspiration, my constant strength and
+                        the person who teaches me what grace looks like, even on
+                        the hardest days.
+                    </p>
 
-                    <div class="family-content">
-                        <p class="family-role">MY BIGGEST CHALLENGER</p>
+                    <p>
+                        She has a way of making everything feel a little more
+                        manageable, a little more hopeful and a lot more meaningful.
+                        I hope I grow to have even a fraction of her strength,
+                        patience and kindness.
+                    </p>
 
-                        <h3>My Father</h3>
+                    <p>
+                        If there is one person I will always look up to,
+                        it will be her.
+                    </p>
 
-                        <p>
-                            If hard work had a face, it would probably be his.
-                            A certified workaholic, a full-time challenger and someone
-                            who never misses an opportunity to ask, "Can you do better?"
-                        </p>
+                    <button class="family-flip-button"
+                            type="button">
+                        Flip Back
+                    </button>
 
-                        <p>
-                            He keeps me thinking, keeps me questioning and makes sure
-                            I never get too comfortable. Sometimes he's my biggest
-                            cheerleader, sometimes my toughest critic, and very often
-                            both on the same day.
-                        </p>
-
-                        <p>Wouldn't have it any other way.</p>
-                    </div>
-
-                </article>
-
-
-                <!-- YOUNGER BROTHER -->
-                <article class="family-card family-brother">
-
-                    <div class="family-number">03</div>
-
-                    <div class="family-content">
-                        <p class="family-role">MY FAVOURITE HUMAN</p>
-
-                        <h3>My Younger Brother</h3>
-
-                        <p>
-                            My partner in crime, my safe space and my favourite person
-                            to boss around.
-                        </p>
-
-                        <p>
-                            The one who knows all my moods, tolerates most of my nonsense
-                            and is somehow always involved in my adventures — whether
-                            he volunteered or not.
-                        </p>
-
-                        <p>
-                            Our conversations range from absolute nonsense to the most
-                            meaningful things, and I wouldn't trade that bond for
-                            anything. He may be my younger brother, but he's also one
-                            of my favourite people to annoy, laugh with and count on.
-                        </p>
-
-                        <p>
-                            A built-in best friend for life, with absolutely no option
-                            to unsubscribe.
-                        </p>
-                    </div>
-
-                </article>
-
-
-                <!-- WHOLE FAMILY -->
-                <article class="family-card family-together">
-
-                    <div class="family-number">04</div>
-
-                    <div class="family-content">
-                        <p class="family-role">A LITTLE BIT OF EVERYTHING</p>
-
-                        <h3>Us, Together</h3>
-
-                        <p>
-                            Our family is a little bit of everything — love, laughter,
-                            endless conversations, friendly arguments and a whole lot
-                            of travel plans.
-                        </p>
-
-                        <p>
-                            Some of our favourite memories aren't tied to a destination
-                            at all. They're somewhere between long car drives, spontaneous
-                            short trips, music playing in the background, random food
-                            stops and conversations that somehow never run out.
-                        </p>
-
-                        <p>
-                            We love exploring new places, collecting little experiences
-                            and, most importantly, making memories along the way.
-                        </p>
-
-                        <p>
-                            Different personalities, different opinions, one shared
-                            love for making every journey an adventure. And, of course,
-                            a little playful banter is always part of the itinerary.
-                        </p>
-                    </div>
-
-                </article>
+                </div>
 
             </div>
 
-        </section>
+        </article>
 
+
+        <!-- FATHER -->
+        <article class="family-card">
+
+            <div class="family-card-inner">
+
+                <div class="family-card-front">
+
+                    <img
+                        src="images/family/family_father.png"
+                        alt="Illustrated portrait of my father">
+
+                    <div class="family-front-content">
+                        <span class="family-number">02</span>
+                        <h3>My Father</h3>
+                        <p>MY BIGGEST CHALLENGER</p>
+
+                        <button class="family-flip-button"
+                                type="button"
+                                aria-expanded="false">
+                            Read More
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="family-card-back">
+
+                    <span class="family-number">02</span>
+                    <p class="family-role">MY BIGGEST CHALLENGER</p>
+                    <h3>My Father</h3>
+
+                    <p>
+                        If hard work had a face, it would probably be his.
+                        A certified workaholic, a full-time challenger and someone
+                        who never misses an opportunity to ask, "Can you do better?"
+                    </p>
+
+                    <p>
+                        He keeps me thinking, keeps me questioning and makes sure
+                        I never get too comfortable. Sometimes he's my biggest
+                        cheerleader, sometimes my toughest critic, and very often
+                        both on the same day.
+                    </p>
+
+                    <p>Wouldn't have it any other way.</p>
+
+                    <button class="family-flip-button"
+                            type="button">
+                        Flip Back
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- YOUNGER BROTHER -->
+        <article class="family-card">
+
+            <div class="family-card-inner">
+
+                <div class="family-card-front">
+
+                    <img
+                        src="images/family/family_brother.png"
+                        alt="Illustrated portrait of my younger brother">
+
+                    <div class="family-front-content">
+                        <span class="family-number">03</span>
+                        <h3>My Younger Brother</h3>
+                        <p>MY FAVOURITE HUMAN</p>
+
+                        <button class="family-flip-button"
+                                type="button"
+                                aria-expanded="false">
+                            Read More
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="family-card-back">
+
+                    <span class="family-number">03</span>
+                    <p class="family-role">MY FAVOURITE HUMAN</p>
+                    <h3>My Younger Brother</h3>
+
+                    <p>
+                        My partner in crime, my safe space and my favourite person
+                        to boss around.
+                    </p>
+
+                    <p>
+                        The one who knows all my moods, tolerates most of my nonsense
+                        and is somehow always involved in my adventures — whether
+                        he volunteered or not.
+                    </p>
+
+                    <p>
+                        Our conversations range from absolute nonsense to the most
+                        meaningful things, and I wouldn't trade that bond for
+                        anything. He may be my younger brother, but he's also one
+                        of my favourite people to annoy, laugh with and count on.
+                    </p>
+
+                    <p>
+                        A built-in best friend for life, with absolutely no option
+                        to unsubscribe.
+                    </p>
+
+                    <button class="family-flip-button"
+                            type="button">
+                        Flip Back
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- WHOLE FAMILY -->
+        <article class="family-card family-together">
+
+            <div class="family-card-inner">
+
+                <div class="family-card-front">
+
+                    <img
+                        src="images/family/family_family.png"
+                        alt="Illustrated portrait of our family together">
+
+                    <div class="family-front-content">
+                        <span class="family-number">04</span>
+                        <h3>Us, Together</h3>
+                        <p>A LITTLE BIT OF EVERYTHING</p>
+
+                        <button class="family-flip-button"
+                                type="button"
+                                aria-expanded="false">
+                            Read More
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="family-card-back">
+
+                    <span class="family-number">04</span>
+                    <p class="family-role">A LITTLE BIT OF EVERYTHING</p>
+                    <h3>Us, Together</h3>
+
+                    <p>
+                        Our family is a little bit of everything — love, laughter,
+                        endless conversations, friendly arguments and a whole lot
+                        of travel plans.
+                    </p>
+
+                    <p>
+                        Some of our favourite memories aren't tied to a destination
+                        at all. They're somewhere between long car drives, spontaneous
+                        short trips, music playing in the background, random food
+                        stops and conversations that somehow never run out.
+                    </p>
+
+                    <p>
+                        We love exploring new places, collecting little experiences
+                        and, most importantly, making memories along the way.
+                    </p>
+
+                    <p>
+                        Different personalities, different opinions, one shared
+                        love for making every journey an adventure. And, of course,
+                        a little playful banter is always part of the itinerary.
+                    </p>
+
+                    <button class="family-flip-button"
+                            type="button">
+                        Flip Back
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
 
         <!-- HOBBIES -->
         <section id="hobbies" class="hobbies-section">
