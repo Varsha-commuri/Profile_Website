@@ -70,5 +70,117 @@
     --border-gold: rgba(197, 161, 93, 0.35);
     --border-gold-light: rgba(197, 161, 93, 0.25);
     --border-hero: rgba(197, 161, 93, 0.3);
+
+    /* FAMILY SECTION */
+
+--family-card: #f7f3e9;
+--family-accent: #304c3b;
+--family-together: #263f32;
+--family-text: #26382d;
+--family-text-light: #fffaf0;
+--family-gold: #b99a5b;
+--family-border: #d9c8a5;
+--family-radius: 18px;
+--family-shadow: 0 8px 22px rgba(0, 0, 0, 0.10);
  
+}
+
+
+/* =========================================
+   DARK MODE
+========================================= */
+
+:root[data-theme="dark"] {
+    --color-background: #171c19;
+    --color-surface: #222b25;
+    --color-surface-light: #303c33;
+
+    --color-sage: #82977e;
+    --color-sage-light: #46594a;
+    --color-forest: #c2d1bd;
+    --color-forest-dark: #dce8d6;
+
+    --color-accent: #d5b574;
+    --color-gold-light: #e5cf9e;
+    --color-gold-dark: #b99755;
+
+    --color-primary: #edf0e9;
+    --color-secondary: #b5beb3;
+    --color-light-text: #f7f5ef;
+
+    --hero-sage: #303c33;
+    --hero-ivory: #222b25;
+    --hero-text: #edf0e9;
+    --hero-muted: #b5beb3;
+    --hero-accent: #d5b574;
+
+    --shadow-navigation: 0 3px 15px rgba(0, 0, 0, 0.3);
+    --shadow-card: 0 5px 18px rgba(0, 0, 0, 0.2);
+    --shadow-card-hover: 0 15px 30px rgba(0, 0, 0, 0.35);
+    --shadow-image: 0 8px 22px rgba(0, 0, 0, 0.3);
+    --shadow-menu: 0 8px 20px rgba(0, 0, 0, 0.3);
+
+    --border-gold: rgba(213, 181, 116, 0.35);
+    --border-gold-light: rgba(213, 181, 116, 0.2);
+    --border-hero: rgba(213, 181, 116, 0.3);
+
+    /* Family section */
+    --family-card: #222b25;
+    --family-accent: #82977e;
+    --family-together: #303c33;
+    --family-text: #edf0e9;
+    --family-text-light: #f7f5ef;
+    --family-gold: #d5b574;
+    --family-border: #536453;
+    --family-shadow: 0 8px 22px rgba(0, 0, 0, 0.3);
+}
+
+
+/* =========================================
+   WARM TERRACOTTA THEME
+========================================= */
+
+:root[data-theme="terracotta"] {
+    --color-background: #f3e9df;
+    --color-surface: #fbf3eb;
+    --color-surface-light: #ead6c5;
+
+    --color-sage: #c98f75;
+    --color-sage-light: #e8c8b4;
+    --color-forest: #75483b;
+    --color-forest-dark: #56352d;
+
+    --color-accent: #bd8051;
+    --color-gold-light: #dfb58a;
+    --color-gold-dark: #94603f;
+
+    --color-primary: #593c32;
+    --color-secondary: #866c5e;
+    --color-light-text: #fff8f1;
+
+    --hero-sage: #e8c8b4;
+    --hero-ivory: #fbf3eb;
+    --hero-text: #593c32;
+    --hero-muted: #866c5e;
+    --hero-accent: #bd8051;
+
+    --shadow-navigation: 0 3px 15px rgba(86, 53, 45, 0.12);
+    --shadow-card: 0 5px 18px rgba(86, 53, 45, 0.07);
+    --shadow-card-hover: 0 15px 30px rgba(86, 53, 45, 0.15);
+    --shadow-image: 0 8px 22px rgba(86, 53, 45, 0.15);
+    --shadow-menu: 0 8px 20px rgba(86, 53, 45, 0.1);
+
+    --border-gold: rgba(189, 128, 81, 0.35);
+    --border-gold-light: rgba(189, 128, 81, 0.25);
+    --border-hero: rgba(189, 128, 81, 0.3);
+
+    /* Family section */
+    --family-card: #fbf3eb;
+    --family-accent: #75483b;
+    --family-together: #56352d;
+    --family-text: #593c32;
+    --family-text-light: #fff8f1;
+    --family-gold: #bd8051;
+    --family-border: #dfc0a8;
+    --family-shadow: 0 8px 22px rgba(86, 53, 45, 0.12);
 }

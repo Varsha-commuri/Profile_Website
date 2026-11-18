@@ -306,3 +306,69 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
     }
+    // FAMILY FLIP CARDS
+
+const familyCards = document.querySelectorAll(".family-card");
+
+familyCards.forEach(function (card) {
+
+    const flipButtons = card.querySelectorAll(".family-flip-button");
+
+    flipButtons.forEach(function (button) {
+
+        button.addEventListener("click", function () {
+
+            const isFlipped = card.classList.toggle("is-flipped");
+
+            const frontButton = card.querySelector(
+                ".family-card-front .family-flip-button"
+            );
+
+            if (frontButton) {
+                frontButton.setAttribute(
+                    "aria-expanded",
+                    String(isFlipped)
+                );
+            }
+
+        });
+
+    });
+
+});
+
+
+/* =========================================
+   THEME SWITCHER
+========================================= */
+
+const themeSelect = document.getElementById("theme-select");
+
+// Apply the selected theme
+function applyTheme(theme) {
+    if (theme === "sage") {
+        document.documentElement.removeAttribute("data-theme");
+    } else {
+        document.documentElement.setAttribute("data-theme", theme);
+    }
+
+    // Remember the visitor's preference
+    localStorage.setItem("selectedTheme", theme);
+
+    // Update dropdown selection
+    if (themeSelect) {
+        themeSelect.value = theme;
+    }
+}
+
+// Load the saved theme when the website opens
+const savedTheme = localStorage.getItem("selectedTheme") || "sage";
+
+applyTheme(savedTheme);
+
+// Listen for visitor selection
+if (themeSelect) {
+    themeSelect.addEventListener("change", function () {
+        applyTheme(this.value);
+    });
+}
