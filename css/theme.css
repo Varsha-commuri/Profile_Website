@@ -1,38 +1,38 @@
 
 /* =========================================
-   VARSHA COMMURI - DARK WEBSITE THEME
-   CHARCOAL | FOREST GREEN | ANTIQUE GOLD
+   VARSHA COMMURI - WARM WEBSITE THEME
+   TERRACOTTA | CREAM | ANTIQUE BRONZE
 ========================================= */
 
 :root {
 
     /* Main colours */
-    --color-background: #171D19;
-    --color-surface: #222B25;
-    --color-surface-light: #303B32;
+    --color-background: #F5EBDD;
+    --color-surface: #FFF9F1;
+    --color-surface-light: #E8D5C3;
 
-    /* Green palette */
-    --color-sage: #84977D;
-    --color-sage-light: #A8B69B;
-    --color-forest: #354B39;
-    --color-forest-dark: #263B2B;
+    /* Green palette - adapted to warm earthy tones */
+    --color-sage: #D5A58F;
+    --color-sage-light: #EBD0BE;
+    --color-forest: #684638;
+    --color-forest-dark: #4B3027;
 
     /* Gold palette */
-    --color-accent: #D2AD68;
-    --color-gold-light: #E5C98F;
-    --color-gold-dark: #B18A48;
+    --color-accent: #B18A48;
+    --color-gold-light: #D8B77A;
+    --color-gold-dark: #89632F;
 
     /* Text colours */
-    --color-primary: #F2F0E7;
-    --color-secondary: #B8BDB3;
-    --color-light-text: #F7F5EF;
+    --color-primary: #4B3027;
+    --color-secondary: #80695D;
+    --color-light-text: #FFF9F1;
 
     /* Hero colours */
-    --hero-sage: #84977D;
-    --hero-ivory: #222B25;
-    --hero-text: #F7F5EF;
-    --hero-muted: #C0C7BC;
-    --hero-accent: #D2AD68;
+    --hero-sage: #D5A58F;
+    --hero-ivory: #FFF9F1;
+    --hero-text: #4B3027;
+    --hero-muted: #80695D;
+    --hero-accent: #B96F52;
 
     /* Typography */
     --font-primary: 'Segoe UI', sans-serif;
@@ -62,14 +62,14 @@
     --transition-speed: 0.3s;
 
     /* Shadows and transparent colours */
-    --shadow-navigation: 0 3px 15px rgba(0, 0, 0, 0.35);
-    --shadow-card: 0 5px 18px rgba(0, 0, 0, 0.20);
-    --shadow-card-hover: 0 15px 30px rgba(0, 0, 0, 0.35);
-    --shadow-image: 0 8px 22px rgba(0, 0, 0, 0.30);
-    --shadow-menu: 0 8px 20px rgba(0, 0, 0, 0.30);
+    --shadow-navigation: 0 3px 15px rgba(75, 48, 39, 0.12);
+    --shadow-card: 0 5px 18px rgba(104, 70, 56, 0.08);
+    --shadow-card-hover: 0 15px 30px rgba(104, 70, 56, 0.15);
+    --shadow-image: 0 8px 22px rgba(75, 48, 39, 0.16);
+    --shadow-menu: 0 8px 20px rgba(75, 48, 39, 0.12);
 
-    --border-gold: rgba(210, 173, 104, 0.40);
-    --border-gold-light: rgba(210, 173, 104, 0.25);
-    --border-hero: rgba(210, 173, 104, 0.35);
+    --border-gold: rgba(177, 138, 72, 0.40);
+    --border-gold-light: rgba(177, 138, 72, 0.25);
+    --border-hero: rgba(177, 138, 72, 0.35);
 
 }
