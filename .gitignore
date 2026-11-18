@@ -1,1 +1,31 @@
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Visual Studio Code workspace settings
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Node.js dependencies (not required for this website)
+node_modules/
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+# Build and test outputs
+dist/
+build/
+coverage/
+
+# Lighthouse temporary reports
+.lighthouseci/
+# Visual Studio generated files
 .vs/
