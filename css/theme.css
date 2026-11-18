@@ -1,75 +1,74 @@
-
 /* =========================================
-   VARSHA COMMURI - WARM WEBSITE THEME
-   TERRACOTTA | CREAM | ANTIQUE BRONZE
+   VARSHA COMMURI - WEBSITE THEME
+   SAGE GREEN | IVORY | ANTIQUE GOLD
 ========================================= */
-
+ 
 :root {
-
+ 
     /* Main colours */
-    --color-background: #F5EBDD;
-    --color-surface: #FFF9F1;
-    --color-surface-light: #E8D5C3;
-
-    /* Green palette - adapted to warm earthy tones */
-    --color-sage: #D5A58F;
-    --color-sage-light: #EBD0BE;
-    --color-forest: #684638;
-    --color-forest-dark: #4B3027;
-
+    --color-background: #F2F0E7;
+    --color-surface: #F7F5EF;
+    --color-surface-light: #E7E8D9;
+ 
+    /* Green palette */
+    --color-sage: #AEB99B;
+    --color-sage-light: #DDE1CF;
+    --color-forest: #354B39;
+    --color-forest-dark: #263B2B;
+ 
     /* Gold palette */
-    --color-accent: #B18A48;
-    --color-gold-light: #D8B77A;
-    --color-gold-dark: #89632F;
-
+    --color-accent: #C5A15D;
+    --color-gold-light: #DCC38F;
+    --color-gold-dark: #94733D;
+ 
     /* Text colours */
-    --color-primary: #4B3027;
-    --color-secondary: #80695D;
-    --color-light-text: #FFF9F1;
-
+    --color-primary: #354236;
+    --color-secondary: #77796D;
+    --color-light-text: #F7F5EF;
+ 
     /* Hero colours */
-    --hero-sage: #D5A58F;
-    --hero-ivory: #FFF9F1;
-    --hero-text: #4B3027;
-    --hero-muted: #80695D;
-    --hero-accent: #B96F52;
-
+    --hero-sage: #AEB99B;
+    --hero-ivory: #F7F5EF;
+    --hero-text: #354236;
+    --hero-muted: #77796D;
+    --hero-accent: #B18A48;
+ 
     /* Typography */
     --font-primary: 'Segoe UI', sans-serif;
     --font-heading: 'Georgia', serif;
-
+ 
     /* Font sizes */
     --font-small: 0.875rem;
     --font-normal: 1rem;
     --font-large: 1.25rem;
     --font-heading-large: 3.5rem;
-
+ 
     /* Spacing */
     --spacing-xs: 0.5rem;
     --spacing-sm: 1rem;
     --spacing-md: 2rem;
     --spacing-lg: 4rem;
     --spacing-xl: 6rem;
-
+ 
     /* Border radius */
     --radius-small: 0.4rem;
     --radius-medium: 0.8rem;
     --radius-large: 1.5rem;
-
+ 
     /* Other design properties */
     --border-width: 1px;
     --content-width: 1200px;
     --transition-speed: 0.3s;
-
+ 
     /* Shadows and transparent colours */
-    --shadow-navigation: 0 3px 15px rgba(75, 48, 39, 0.12);
-    --shadow-card: 0 5px 18px rgba(104, 70, 56, 0.08);
-    --shadow-card-hover: 0 15px 30px rgba(104, 70, 56, 0.15);
-    --shadow-image: 0 8px 22px rgba(75, 48, 39, 0.16);
-    --shadow-menu: 0 8px 20px rgba(75, 48, 39, 0.12);
-
-    --border-gold: rgba(177, 138, 72, 0.40);
-    --border-gold-light: rgba(177, 138, 72, 0.25);
-    --border-hero: rgba(177, 138, 72, 0.35);
-
+    --shadow-navigation: 0 3px 15px rgba(38, 59, 43, 0.12);
+    --shadow-card: 0 5px 18px rgba(53, 75, 57, 0.06);
+    --shadow-card-hover: 0 15px 30px rgba(53, 75, 57, 0.13);
+    --shadow-image: 0 8px 22px rgba(38, 59, 43, 0.15);
+    --shadow-menu: 0 8px 20px rgba(0, 0, 0, 0.08);
+ 
+    --border-gold: rgba(197, 161, 93, 0.35);
+    --border-gold-light: rgba(197, 161, 93, 0.25);
+    --border-hero: rgba(197, 161, 93, 0.3);
+ 
 }
