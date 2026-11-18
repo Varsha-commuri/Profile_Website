@@ -1,0 +1,69 @@
+
+name: Pull Request Quality Checks
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  check-html-title:
+    name: Check HTML Title
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Verify HTML title
+        run: |
+          grep -q '<title>.*</title>' index.html
+
+  check-image-alt:
+    name: Check Image Alt Attributes
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Verify image alt attributes
+        run: |
+          if grep -nE '<img[^>]*>' index.html | grep -vE 'alt="[^"]+"'; then
+            echo "Error: An image is missing its alt attribute."
+            exit 1
+          else
+            echo "All images have alt attributes."
+          fi
+
+  check-console-logs:
+    name: Check JavaScript Console Logs
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check for console.log
+        run: |
+          if grep -n 'console\.log' js/main.js; then
+            echo "Error: Remove console.log statements before merging."
+            exit 1
+          else
+            echo "No console.log statements found."
+          fi
+
+  quality-gate:
+    name: Final Quality Gate
+    runs-on: ubuntu-latest
+    needs:
+      - check-html-title
+      - check-image-alt
+      - check-console-logs
+
+    steps:
+      - name: Confirm all checks passed
+        run: echo "All pull request quality checks passed!"
